@@ -2,8 +2,8 @@
 let laGrandeBoulangerie = new Boulangerie("La Grande Boulangerie");
 let bernard = new Boulanger("Bernard");
 let paul = new Patissier("Paul");
-// let violaine = new Vendeuse("Violaine");
-// let virginie = new Vendeuse("Virginie");
+let violaine = new Vendeuse("Violaine");
+let virginie = new Vendeuse("Virginie");
 // let baguette = new Produit("baguette", 0.10, 1.20);
 // let croissant = new Produit("croissant", 0.15, 1.50);
 // let painDeMie = new Produit("pain de mie", 0.40, 4.50);
