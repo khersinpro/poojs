@@ -2,13 +2,13 @@ class Produit
 {
     name;
     productionPrice;
-    SellingPrice;
+    sellingPrice;
 
-    constructor(name, productionPrice, SellingPrice)
+    constructor(name, productionPrice, sellingPrice)
     {
         this.name               =   name;
         this.productionPrice    =   productionPrice;
-        this.SellingPrice       =   SellingPrice;
-        console.log(`${this.name} est un produit (${this.productionPrice.toFixed(2)}/${this.SellingPrice.toFixed(2)})`);
+        this.sellingPrice       =   sellingPrice;
+        console.log(`${this.name} est un produit (${this.productionPrice.toFixed(2)}/${this.sellingPrice.toFixed(2)})`);
     }
 }
